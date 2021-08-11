@@ -1,0 +1,22 @@
+{
+  "name": "AgoraTokenServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "agora-access-token": "^2.0.4",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.20.1",
+    "fastify-swagger": "^4.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
